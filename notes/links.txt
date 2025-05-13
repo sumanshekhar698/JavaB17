@@ -1,0 +1,15 @@
+---- Charset ----
+https://www.tutorialspoint.com/difference-between-utf-8-and-utf-16
+
+---- Primitive Data Types ----
+https://www.geeksforgeeks.org/data-types-in-java/
+
+
+---- Java Installation with Env variables ----
+https://youtu.be/IJ-PJbvJBGs
+
+---- Github ----
+https://github.com/sumanshekhar698/JavaB17
+
+---- Excercise ----
+https://codingbat.com/java
