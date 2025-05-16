@@ -9,7 +9,7 @@ class PrimitiveVariables {// C1: class name should be PascalCase
 
 //		Range of a integer datatype with bits n ::   -2^(n-1) to +2^(n-1) - 1
 
-		byte a = 43;
+		byte a = 43;//local variables
 		short b = 89;
 		int valueOfDozen = 12;// num is a variable of type int
 //		variable and fn/method names we follow camelCase
