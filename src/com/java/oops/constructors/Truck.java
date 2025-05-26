@@ -14,6 +14,8 @@ public class Truck {
 //	It is called automatically once the object is made
 //	JVM adds a default constructor if you haven't declared your own
 
+	
+//	Truck Constructor is Over Loaded and it follows all the rules of Method Overloading
 	Truck() {// Parameter less Constructor
 		System.out.println("Truck  Parameterless called");
 	}
