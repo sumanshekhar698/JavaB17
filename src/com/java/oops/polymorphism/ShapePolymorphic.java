@@ -4,7 +4,7 @@ public class ShapePolymorphic {
 
 //	Rules of CompileTime Polymorphism::  Method Overloading
 	
-//	AGENGA: To make a fn unique
+//	AGENDA: To make a fn unique
 //	0. fn name
 //	1. No of fn paramters
 //	2. Parameter type

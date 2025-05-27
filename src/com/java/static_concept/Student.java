@@ -11,6 +11,7 @@ public class Student {
 //	R3: static variable and fn are shared among all the objects of that class
 
 	/*
+	 * << Execution Order >>
 	 * 1. Static Blocks in Order 2. Normal Blocks 3. Constructors
 	 */
 	{

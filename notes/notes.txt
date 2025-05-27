@@ -80,9 +80,45 @@ and managing permissions
 --------- Arrays ---------
 
 
+--------- Static Concept ---------
+R0: static things are initialized before even Object creation
+R1: static variables are not INSTANCE variables
+R2: static means Class level not object level
+R3: static variable and fn are shared among all the objects of that class
 
 --------- Pillars of OOPS ---------
 - Abstraction
 - Polymorphism
 - Inheritance
 - Abstraction
+
+
+--------- Rules of Compile time Polymorphism in Java  ---------
+Polymorphism has 2 type
+1. Method/fn Overloading :: CompileTime Polymorphism
+2. Method Overiding :: Runtime Polymorphism, this comes in Inheritance
+
+CompileTime Polymorphism::  Method Overloading
+	
+AGENDA: To make a fn unique, these are the factors to consider
+0. fn name
+1. No of fn paramters
+2. Parameter type
+3. Parameter Position with different param types
+
+NOTE! fn return type does not has anything to do with compile time  polymorphism
+
+
+--------- Rules of Inheritance in Java  ---------
+	
+1. super points to the immediate Parent class, you can access variables and fn
+2. You have to call at least one Parent Constructor, super()
+3. super() call should be the 1st statement in the Constructor
+4. You can do chaining OR calling Parent constructor
+5. You cannot have multiple Inheritance but you can have Multi Level Inheritance
+6. Cyclic or circular Inheritance in not allowed
+7. In Java Every class will have a Parent, Object class is the default parent you haven't declared anything explicitly
+8. You cannot @Override a final fn
+9. Method Overriding :: Polymorphism ( Runtime Polymorphism)
+10. final classes cannot be inherited
+11. static fn cannot be overidden, her method HIDING is happening in case of static fns
