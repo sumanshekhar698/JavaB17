@@ -122,3 +122,14 @@ NOTE! fn return type does not has anything to do with compile time  polymorphism
 9. Method Overriding :: Polymorphism ( Runtime Polymorphism)
 10. final classes cannot be inherited
 11. static fn cannot be overidden, her method HIDING is happening in case of static fns
+
+
+
+--------- A1: Deck of Cards  ---------
+
+
+52
+Suits = 4 [ Heart, Diamond, Spade, Club]
+13 cards right
+
+A 2 3 4 5 6 7 8 9 10 J Q K
